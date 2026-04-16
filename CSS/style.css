@@ -1,1 +1,64 @@
+body {
+    background-color: rgb(57, 54, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
 
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+.login {
+    background: linear-gradient(to bottom, #4438aa, #6b59cf);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 400px;      
+    max-width: 100%;    
+}
+
+.login p {
+    color: white;
+    width: 100%;              
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;  
+    text-align: center;
+    margin: 0;
+}
+
+label {
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+input {
+    width: 100%;      
+    padding: 10px;   
+    font-size: 14px;  
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+button, input[type="reset"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
