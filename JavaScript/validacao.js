@@ -8,9 +8,8 @@ function validar(){
 
     if (nome === "" || email === "") {
         alert("Insira os Dados nos Campos Corretamente!!");
+        return false;
     }
-    else{
-        alert("Dados corretos.")
-    }
+    return true;
 
 }
